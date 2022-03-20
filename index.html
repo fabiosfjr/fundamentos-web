@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -16,19 +18,24 @@
         </li>
     </ul>
 
-    <h1>Blog Pessoal</h1>
+    <h1 class="center">Blog Pessoal</h1>
+    <div class="container">
 
-    <p>
-        Meu nome é Fábio Ferreira, tenho 27 anos, apaixonado por esportes e programação. 
-        Atualmente no último semestre do curso de Administração.
-    </p>
-
-    <p>
-        Um dos meus hobbys é cozinhar. Foi uma coisa que descobri depois que comecei a ter uma alimentação
-        mais saudável e balanceada. Aprendi tudo o que eu sei da cozinha no YouTube.
-    </p>
-
-    <img src="assets/img/imagem html.webp" alt="Foto do criador desse conteúdo">
+        <div class="p-30 justify">
+            <p>
+                Meu nome é Fábio Ferreira, tenho 27 anos, apaixonado por esportes e programação. 
+                Atualmente no último semestre do curso de Administração.
+            </p>
+            <p>
+                Um dos meus hobbys é cozinhar. Foi uma coisa que descobri depois que comecei a ter uma alimentação
+                mais saudável e balanceada. Aprendi tudo o que eu sei da cozinha no YouTube.
+            </p>
+        </div>
+        <div>
+            <img class="br-50" src="assets/img/imagem html.webp" alt="Foto do criador desse conteúdo">
+        </div>
+        
+    </div>
 
     <p>
         Falando um pouco sobre cozinhar, acredito que os primeiros passos pra quem entender sobre a
@@ -45,29 +52,50 @@
         um fit com o fogão a perceberem que cozinhar não é um bixo de sete cabeças.
     </p>
 
-    <h2>Como fazer arroz soltinho | Cozinha Básica</h2>
+    <h2 class="center">Como fazer arroz soltinho | Cozinha Básica</h2>
+    <div class="container">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/ClB0hyNcy3o" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>
 
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/ClB0hyNcy3o" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    ></iframe>
+    </div>
 
-    <h2>Como fazer feijão | Cozinha Básica</h2>
+    <h2 class="center"> Como fazer feijão | Cozinha Básica</h2>
+    <div class="container mb-50">
+        <iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/cNuf6HXk7BU" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>
+    </div>
 
-    <iframe width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/cNuf6HXk7BU" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    ></iframe>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/f%C3%A1bio-ferreira-11135b86/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100005080686942" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+            <a href="https://web.whatsapp.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/whatsapp.png" alt="Logo do Whatsapp">
+            </a>
+        </div>
 
-
+        <p class="center">
+            Todos os direitos reservados: Fábio Ferreira &copy;
+        </p>
+    </footer>
+    
 </body>
 </html>
